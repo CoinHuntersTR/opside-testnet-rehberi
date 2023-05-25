@@ -51,14 +51,9 @@ cd ./testnet-auto-install
  ### Validator Oluşturma
 * Node Sync olup olmadığını aşağıdaki komutlar ile bakabilirsiniz. Aşağıdaki görselde olduğu gibi bloklar akıyorsa sorun yoktur.
  ```
-cd ./testnet-auto-install-v2
+cd ./testnet-auto-install-v2 && cd ./testnet-auto-install && opside-chain/show-geth-log.sh
 ```
- ```
-cd ./testnet-auto-install
-```
- ```
-opside-chain/show-geth-log.sh
-```
+
 ![loglar](https://github.com/CoinHuntersTR/opside-testnet-rehberi/assets/111747226/6d1344ea-598d-4e4f-a808-51d068136ca8)
 
 * Blok zincirin en son hangi blokta olduğunu görmek için [BURADAN](https://pre-alpha.opside.info/) kontrol edebilirsiniz.
